@@ -1,0 +1,42 @@
+.highPoint {
+    width: 100%;
+    background-color: black;
+    padding: 6px;
+}
+
+.Hnav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.greeting {
+    width: 100%;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.wellcome {
+    color: #ccc;
+    white-space: nowrap;
+    border-right: 3px solid transparent;
+}
+
+.wellcome p {
+    display: inline-block; /* Necessário para animar a largura */
+    white-space: nowrap;
+    margin: 0;
+    font-size: 1.3rem;
+    color: white;
+}
+
+.icons {
+    background-color: pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 12px;
+}

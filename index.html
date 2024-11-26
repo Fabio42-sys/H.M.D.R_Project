@@ -1,19 +1,27 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
-    <link rel="stylesheet" href="./CSS/index.css">
     <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/header.css">
     <title>H.D.M.R Project</title>
 </head>
+
 <body>
 
     <header class="highPoint" id="Header">
-        <p>Sejam bem vindos ao H.M.D.R</p>
-        <i class="fa-solid fa-user"></i>
-        <i class="fa-solid fa-bars"></i>
+        <nav class="Hnav">
+            <div class="greeting">
+                <p id="wellcome" class="wellcome">Sejam bem vindos ao H.M.D.R seu auxio na hora de guardar e achar tarefas</p>
+            </div>
+            <div class="icons">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
     </header>
 
     <main class="centerPoint" id="Main">
@@ -23,6 +31,9 @@
     <footer class="bottomPoint" id="Footer">
 
     </footer>
-    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.2/anime.min.js"></script>
+    <script src="./JS/headerAnimation.js"></script>
 </body>
+
 </html>
