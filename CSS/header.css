@@ -33,10 +33,14 @@
 }
 
 .icons {
-    background-color: pink;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 16px;
     padding: 12px;
+}
+
+.icons i {
+    color: #ccc;
+    height: 16px;
 }
