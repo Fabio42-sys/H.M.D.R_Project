@@ -3,24 +3,92 @@
     background-color: brown;
     padding: 20px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 10px;
 }
 
 .about {
-    width: 50%;
+    width: 100%;
     background-color: yellow;
     display: flex;
     padding: 20px;
     gap: 32px;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .questions {
-    width: 100%;
+    width: 46%;
     background-color: blueviolet;
     display: flex;
     flex-direction: column;
     gap: 12px;
     align-items: center;
     padding: 18px;
+    border-radius: 12px;
+}
+
+.project {
+    background-color: blue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.reason {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 18px;
+    border: 1px solid #000;
+}
+
+.projectFormat {
+    background-color: red;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 26px;
+}
+
+.HDMR {
+    padding: 20px;
+}
+
+.goals {
+    background-color: #173B17; /* Verde escuro profundo */
+    color: #1FFF1F; /* Verde neon para contraste no texto */
+    border: 2px solid #1FFF1F; /* Contorno com brilho verde */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(31, 255, 31, 0.5), 0 0 20px rgba(15, 128, 15, 0.4); /* Efeito neon suave */
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.goals:hover {
+    background-color: #1A481A; /* Verde escuro mais vibrante ao passar o mouse */
+    box-shadow: 0 0 20px rgba(31, 255, 31, 0.8), 0 0 30px rgba(15, 128, 15, 0.6);
+}
+
+.goalsArea {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.projectFormat p {
+    font-size: 18px;
 }
