@@ -1,5 +1,5 @@
 .bottomPoint {
-    background-color: darkcyan;
+    background-color: #000;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -8,7 +8,6 @@
 }
 
 .contact {
-    background-color: darkcyan;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -25,6 +24,7 @@
 }
 
 .ownerRights {
+    color: #1FFF1F;
     font-size: 18px;
     font-weight: bold;
 }
